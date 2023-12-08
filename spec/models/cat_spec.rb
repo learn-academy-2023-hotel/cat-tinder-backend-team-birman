@@ -45,6 +45,7 @@ RSpec.describe Cat, type: :model do
       image: "sample4"
     )
     expect(cat.errors[:enjoys]).to_not be_empty
+    # expect(cat['enjoys'].length).to be >= 10
   end
   
 
